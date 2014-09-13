@@ -11,4 +11,6 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+//跟是图的高度
+#define heigh [UIScreen mainScreen].bounds.size.height-20
 #endif
